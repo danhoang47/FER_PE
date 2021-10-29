@@ -1,0 +1,14 @@
+#first-heading{
+    color: rgb(56, 4, 122);
+}
+
+.second-heading{
+    color: brown;
+    font-size: 20px;
+}
+.second-heading .third-heading {
+    color: red;
+}
+.second.fourth {
+    color: magenta;
+}
