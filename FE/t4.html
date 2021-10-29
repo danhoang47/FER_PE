@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-line{
+            color : mediumslateblue;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+        h1::selection{
+            background-color: brown;
+            color: white;
+        }
+        .box{
+            height: 80px;
+            width: 80px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1{
+            background-color: red;
+            color: white;
+        }
+        .box2{
+            background-color: blue;
+            color: white;
+        }
+        .box3{
+            display: block;
+            background-color: yellowgreen;
+            color: white;
+            padding: 10px;
+            border: 10px solid #333;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Padding</h1>
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+    <h1>Box-Sizing</h1>
+</body>
+</html>
