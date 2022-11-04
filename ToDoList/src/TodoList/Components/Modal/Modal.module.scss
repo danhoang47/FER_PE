@@ -1,0 +1,23 @@
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.labelInput {
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    padding: 10px 0;
+}
+
+.falseid {
+    color: red;
+}
+
+.falseidInput {
+    outline: red;
+    color: red;
+}

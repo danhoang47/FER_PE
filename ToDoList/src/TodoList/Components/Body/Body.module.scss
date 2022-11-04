@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    justify-content: space-between;
+    align-items: center;
+    .id {
+        flex: 1;
+        text-align: center;
+    }
+    .name {
+        flex: 3;
+        text-align: center;
+    }
+    .dob {
+        flex: 1;
+        text-align: center;
+    }
+    .gpa {
+        flex: 2;
+        text-align: center;
+    }
+    .action {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+.body {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 0 0 15px 15px;
+    .wrapper {
+        width: 100%;
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+        .id {
+            flex: 1;
+            text-align: center;
+        }
+        .name {
+            flex: 3;
+            text-align: center;
+        }
+        .dob {
+            flex: 1;
+            text-align: center;
+        }
+        .gpa {
+            flex: 2;
+            text-align: center;
+        }
+        .action {
+            flex: 1;
+            text-align: center;
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+}
